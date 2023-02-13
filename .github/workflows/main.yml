@@ -1,13 +1,20 @@
 name: projectv
 
 on:
-  push
+  push:
+    branches: [main]
 
 jobs:
-  test-run:
-    runs-on: ubuntu-latest
-    steps:
-      - name: install packages
-        run: npm install
-              npm run pre-build
-              npm start
+  build:
+      strategy:
+        matrix:
+          node-version: [19.x]
+      steps:
+        - uses: actions/checkout@v3
+        - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+          with:
+            node-version: ${{ matrix.node-version }}
+        - run: npm install
+        - run: npm run pre-build --if-present
+        - run: npm start
