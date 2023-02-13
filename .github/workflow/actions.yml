@@ -1,0 +1,15 @@
+name: projectv
+
+on:
+  push
+
+jobs:
+  test-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: install packages
+        run: npm install
+      - name: build pages
+        run: npm run prebuild
+      - name: run pages
+        run: npm start
