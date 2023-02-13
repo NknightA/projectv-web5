@@ -10,6 +10,6 @@ jobs:
       - name: install packages
         run: npm install
       - name: build pages
-        run: npm run prebuild
+        run: npm run pre-build
       - name: run pages
         run: npm start
