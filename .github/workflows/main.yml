@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: install packages
-        run: npm ci
-      - name: build pages
-        run: npm run pre-build
-      - name: run pages
-        run: npm start
+        run: npm install
+              npm run pre-build
+              npm start
