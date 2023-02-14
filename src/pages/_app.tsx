@@ -1,14 +1,11 @@
 import React from 'react'
 import { AppProps } from 'next/app'
-import './styles/global.css'
-import { SessionProvider } from "next-auth/react";
+import '../styled/global.sass'
 
 export default function App ({Component,pageProps}: AppProps) {
 	return (
 		<>
-			<SessionProvider>
-				<Component{...pageProps}/>
-			</SessionProvider>
+			<Component{...pageProps}/>
 		</>
 	)
 }

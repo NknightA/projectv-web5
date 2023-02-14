@@ -1,0 +1,12 @@
+.Main {
+  background-color: #000021;
+  color: #ff2200;
+  font-size: 1.02em;
+  position: relative;
+}
+.Main::selection {
+  background-color: rgba(255, 35, 0, 0.6);
+  color: #000021;
+}
+
+/*# sourceMappingURL=Index.module.css.map */
