@@ -1,8 +1,7 @@
 import React, {useEffect} from 'react';
-//import styled from "styled-components";
 import styles from './Index.module.css';
 import { useRouter } from 'next/router'
-import getAppRouteFromEntrypoint from "next/dist/server/get-app-route-from-entrypoint";
+import IndexMenu from "./Menu";
 
 export default function Index ({query}) {
     const router = useRouter();
@@ -19,6 +18,7 @@ export default function Index ({query}) {
             Home
             <div>
                 <Authentication/>
+                <IndexMenu/>
             </div>
         </div>
     )

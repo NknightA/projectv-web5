@@ -12,13 +12,16 @@ export default function Document() {
 					backgroundColor: '#ff2200',
 					color: '#000021',
 					display: 'flex',
-					padding: 10
+					padding: 10,
 				}}>
 					<div style={{
 						fontSize: '40px',
 						width: '50%',
 					}}>
-						<p>{title}</p>
+						<a href={"/"} style={{
+							textDecoration: 'none',
+							color: '#000021'
+						}}>{title}</a>
 					</div>
 					<div style={{
 						display: 'flex',

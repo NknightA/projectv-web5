@@ -1,0 +1,22 @@
+.Main {
+  background-color: rgba(0, 0, 241, 0.1294117647);
+  color: #fff;
+  height: 70vh;
+  padding: 2em 4.5em 4.5em;
+}
+
+.About {
+  background-color: #001255;
+  height: 15vh;
+  padding: 1em;
+  margin: 1em;
+}
+
+.Lsits {
+  background-color: #001255;
+  height: 35vh;
+  padding: 1em;
+  margin: 1em;
+}
+
+/*# sourceMappingURL=Menu.module.css.map */
