@@ -5,9 +5,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "tsc -p tsconfig.server.json && cross-env NODE_ENV=development node ./dist/server/server.js",
+    "dev": "tsc -p tsconfig.server.json && cross-env NODE_ENV=development node ./dist/server/server.js",
     "pre-build": "tsc -p tsconfig.server.json",
-    "build": "next build",
     "dev": "cross-env NODE_ENV=development nodemon",
     "test-alone": "node ./dist/server/server.js"
   },
