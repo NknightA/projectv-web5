@@ -16,7 +16,7 @@ const handle = app.getRequestHandler();
         });
         server.listen(port, () => {
             console.log(`${port}で起動中`);
-            console.log(`running on https://localhost:${port}`);
+            console.log(`running on http://localhost:${port}`);
         });
     } catch (e) {
         console.error(e);

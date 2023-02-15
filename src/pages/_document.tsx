@@ -58,7 +58,7 @@ export default function Document() {
 				backgroundColor: '#000021',
 				color: '#ff2200',
 			}}>
-				<div>aa
+				<div>
 					<Main/>
 					<NextScript/>
 				</div>
