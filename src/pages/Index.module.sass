@@ -1,6 +1,16 @@
-.Main
+$IndexMenuMarginSide: 20em
+.Container
   background-color: #000021
   color: #ff2200
+  margin: 4em $IndexMenuMarginSide 4em $IndexMenuMarginSide
   font-size: 1.02em
   position: relative
+  justify-items: center
+  @media screen and (max-width: 500px)
+    background-color: #000021
     // ff2200 + ff2200 = error???
+  .Sidebar
+    background-color: #000021
+    color: #ff2200
+    width: 25em
+

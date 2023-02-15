@@ -1,59 +1,16 @@
 .Container {
-  background-color: #000021;
-  border: 0.5px solid #fff;
-  color: #fff;
-  font-size: 24px;
-  height: 70vh;
-  padding: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Container .ContainerForm {
-  padding: 0.5em;
-  height: 25em;
-  width: 17em;
-}
-.Container .ContainerText {
-  background-color: #ff2200;
-  display: flex;
-  justify-content: center;
-}
-.Container .ContainerFormEmail {
-  margin: 2em 2em 1em 2em;
-}
-.Container .ContainerFormEmail .ContainerFormEmailInput {
-  width: 100%;
   background-color: #001255;
-  color: #ff2200;
-  border: none;
-  height: 2.66em;
+  height: 30em;
 }
-.Container .ContainerFormEmail .ContainerFormEmailInput::selection {
-  background-color: rgba(255, 34, 0, 0.3333333333);
+.Container .ContainerInner {
+  background-color: red;
+  margin: 8em 15em 0em 15em;
+  height: 100%;
 }
-.Container .ContainerFormPassword {
-  margin: 1em 2em 1em 2em;
+.Container .ContainerInner .ContainerInnerForm {
+  padding: 20px 20px 20px 20px;
 }
-.Container .ContainerFormPassword .ContainerFormPasswordInput {
+.Container .ContainerInner .ContainerInnerFormInput {
   width: 100%;
-  background-color: #001255;
-  color: #ff2200;
-  border: none;
-  height: 2.66em;
-}
-.Container .ContainerFormPassword .ContainerFormPasswordInput::selection {
-  background-color: rgba(255, 34, 0, 0.3333333333);
-}
-.Container .SubmitButton {
-  width: 100%;
-  background-color: #001255;
-  color: #ff2200;
-  margin: 1em 5em 1em 5em;
-}
-.Container .SubmitButton:hover {
-  background-color: #ff2200;
-  color: #000021;
-}
-
-/*# sourceMappingURL=index.module.css.map */
+  height: 30px;
+}/*# sourceMappingURL=index.module.css.map */

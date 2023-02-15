@@ -1,8 +1,18 @@
-.Main {
+.Container {
   background-color: #000021;
   color: #ff2200;
+  margin: 4em 20em 4em 20em;
   font-size: 1.02em;
   position: relative;
+  justify-items: center;
 }
-
-/*# sourceMappingURL=Index.module.css.map */
+@media screen and (max-width: 500px) {
+  .Container {
+    background-color: #000021;
+  }
+}
+.Container .Sidebar {
+  background-color: #000021;
+  color: #ff2200;
+  width: 25em;
+}/*# sourceMappingURL=Index.module.css.map */

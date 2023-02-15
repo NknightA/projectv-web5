@@ -1,22 +1,24 @@
 .Main {
   background-color: rgba(0, 0, 241, 0.1294117647);
   color: #fff;
-  height: 70vh;
+  height: 60vh;
+  display: flex;
   padding: 2em 4.5em 4.5em;
 }
-
-.About {
+@media screen and (max-width: 500px) {
+  .Main {
+    width: 100%;
+  }
+}
+.Main .About {
   background-color: #001255;
-  height: 15vh;
+  height: 45vh;
   padding: 1em;
   margin: 1em;
 }
-
-.Lsits {
+.Main .Lsits {
   background-color: #001255;
   height: 35vh;
   padding: 1em;
   margin: 1em;
-}
-
-/*# sourceMappingURL=Menu.module.css.map */
+}/*# sourceMappingURL=Menu.module.css.map */

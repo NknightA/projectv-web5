@@ -2,10 +2,9 @@ import styles from './Menu.module.sass';
 
 export default function IndexMenu() {
     return (
-        <div className={styles.Main}>
-            <div>
-                <h1>Welcome to projectV!!</h1>
-            </div>
+        <div>
+            <h1>a</h1>
+            <div className={styles.Main}>
             <div className={styles.About}>
                 <h2>about projectV?</h2>
                 <div>
@@ -28,6 +27,7 @@ export default function IndexMenu() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

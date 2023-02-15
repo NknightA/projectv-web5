@@ -14,12 +14,28 @@ export default function Index ({query}) {
         }
     };
     return (
-        <div className={styles.Main}>
+        <div >
             Home
-            <div>
+            <div className={styles.Container}>
                 <Authentication/>
                 <IndexMenu/>
+                
             </div>
+            <Sidebar/>
         </div>
     )
 };
+
+function Sidebar () {
+    return (
+        <div className={styles.Sidebar}>
+            <h2>List</h2>
+                <li>
+                    <ul>a</ul>
+                </li>
+                <li>aa
+                    <ul>a</ul>
+                </li>
+        </div>
+    )
+}
