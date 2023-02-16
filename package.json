@@ -5,11 +5,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "tsc -p tsconfig.server.json && cross-env NODE_ENV=development node ./dist/server/server.js",
-    "pre-build": "tsc -p tsconfig.server.json",
-    "build": "next build",
-    "dev": "cross-env NODE_ENV=development nodemon",
-    "test-alone": "node ./dist/server/server.js"
+    "start": "next dev"
   },
   "keywords": [],
   "author": "nknight_amamiya <n.knight.pc0627@gmail.com> (https://npm.pkg.github.com/nknight_amamiya)",
