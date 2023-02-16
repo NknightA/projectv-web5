@@ -34,8 +34,8 @@ function Sidebar () {
         <div className={styles.Sidebar}>
             <h2>List</h2>
                 <li>
-                    <ul>Test 1
-                        <li>Test 1.1</li>
+                    <ul><h2>Updates</h2>
+                        <li>a</li>
                         <li>Test 1.2</li>
                         <li>Test 1.3</li>
                     </ul>

@@ -1,6 +1,7 @@
 import { Html , Head , Main, NextScript } from 'next/document';
 import {useRouter} from 'next/router';
 //import headerstyles from './Document.module.css';
+import settings from '../config/settings.json';
 
 export default function Document() {
 	const title = 'project V';
@@ -32,7 +33,7 @@ export default function Document() {
 						<div style={{
 							margin: 20
 						}}>
-							<p>site version - NaN</p>
+							<p>site version - {settings.version}</p>
 						</div>
 						<a href="/login"
 							style={{

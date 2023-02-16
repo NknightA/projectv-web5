@@ -29,6 +29,9 @@
 .Main .Sidebar li ul {
   padding: 0.6em;
 }
+.Main .Sidebar li li {
+  list-style: none;
+}
 .Main .Mainaera {
   color: #ff2200;
   width: 55em;
