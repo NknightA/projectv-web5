@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import styles from './Index.module.css';
+import styles from './Index.module.sass';
 import { useRouter } from 'next/router'
 import IndexMenu from "./Menu";
 
@@ -19,9 +19,12 @@ export default function Index ({query}) {
             <div className={styles.Container}>
                 <Authentication/>
                 <IndexMenu/>
-                
             </div>
-            <Sidebar/>
+            <div className={styles.Main}>
+                <Sidebar/>
+                <Main/>
+                <SidebarRight/>
+            </div>
         </div>
     )
 };
@@ -31,11 +34,47 @@ function Sidebar () {
         <div className={styles.Sidebar}>
             <h2>List</h2>
                 <li>
-                    <ul>a</ul>
+                    <ul>Test 1
+                        <li>Test 1.1</li>
+                        <li>Test 1.2</li>
+                        <li>Test 1.3</li>
+                    </ul>
                 </li>
-                <li>aa
-                    <ul>a</ul>
+                <li>
+                    <ul>Test 2
+                        <li>Test 2.1</li>
+                        <li>Test 2.2</li>
+                        <li>Test 2.3</li>
+                    </ul>
                 </li>
+        </div>
+    )
+}
+
+function Main () {
+    return (
+        <div className={styles.Mainaera}>
+            <h2>List</h2>
+            <li>
+                <ul>a</ul>
+            </li>
+            <li>aa
+                <ul>a</ul>
+            </li>
+        </div>
+    )
+}
+
+function SidebarRight () {
+    return (
+        <div className={styles.SidebarRight}>
+            <h2>List</h2>
+            <li>
+                <ul>a</ul>
+            </li>
+            <li>aa
+                <ul>a</ul>
+            </li>
         </div>
     )
 }

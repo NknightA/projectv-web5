@@ -11,10 +11,41 @@
     background-color: #000021;
   }
 }
-.Container .Sidebar {
-  background-color: #000021;
+
+.Main {
+  display: flex;
+  height: 30em;
+}
+.Main .Sidebar {
   color: #ff2200;
-  width: 25em;
+  width: 30em;
+  margin-top: 10em;
+  list-style: none;
+  padding: 3vh;
+}
+.Main .Sidebar li {
+  padding: 1em;
+}
+.Main .Sidebar li ul {
+  padding: 0.6em;
+}
+.Main .Mainaera {
+  color: #ff2200;
+  width: 55em;
+  margin-top: 10em;
+}
+.Main .SidebarRight {
+  color: #ff2200;
+  width: 30em;
+  margin-top: 10em;
+  list-style: none;
+  padding: 3vh;
+}
+.Main .SidebarRight li {
+  background-color: red;
+}
+.Main .SidebarRight li ul {
+  background-color: #001255;
 }
 
 /*# sourceMappingURL=Index.module.css.map */

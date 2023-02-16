@@ -1,5 +1,4 @@
 .Main {
-  background-color: rgba(0, 0, 241, 0.1294117647);
   color: #fff;
   height: 60vh;
   display: flex;
@@ -12,13 +11,15 @@
 }
 .Main .About {
   background-color: #001255;
-  height: 45vh;
+  width: 50%;
+  height: 100%;
   padding: 1em;
   margin: 1em;
 }
 .Main .Lsits {
   background-color: #001255;
-  height: 35vh;
+  width: 50%;
+  height: 100%;
   padding: 1em;
   margin: 1em;
 }

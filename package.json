@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "start": "next dev",
-    "deploy": "vercel deploy --prod"
+    "build": "next build",
+    "export": "next export"
   },
   "keywords": [],
   "author": "nknight_amamiya <n.knight.pc0627@gmail.com> (https://npm.pkg.github.com/nknight_amamiya)",
