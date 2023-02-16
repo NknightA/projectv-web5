@@ -4,9 +4,8 @@
   padding: 0;
   font-family: "IBM Plex Mono", monospace;
 }
-*::-moz-selection {
-  background-color: rgba(0, 0, 255, 0.6666666667);
-}
 *::selection {
   background-color: rgba(0, 0, 255, 0.6666666667);
-}/*# sourceMappingURL=global.css.map */
+}
+
+/*# sourceMappingURL=global.css.map */
